@@ -1,7 +1,7 @@
 <?php
 // Connexion à la base de données
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=inscription;charset=utf8', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=neos;charset=utf8', 'root', '');
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
 }
