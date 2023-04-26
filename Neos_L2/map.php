@@ -82,12 +82,20 @@ if (!isset($_SESSION['username'])) {
 
             });
         });
+
+        
     </script>
 
 
     <form method="post" action="logout.php">
         <button type="submit">Se déconnecter</button>
-    </form>
+    </form><br><br>
+
+    <button onclick="location.href='association.php'">Association</button><br><br>
+    <button onclick="location.href='challenge.php'">Challenges</button><br><br>
+    <button onclick="location.href='profil.php'">Profil</button><br><br>
+
+
 
 
 </body>

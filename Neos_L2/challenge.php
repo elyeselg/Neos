@@ -1,74 +1,132 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <title>Challenges écoresponsables</title>
-    <link rel="stylesheet" href="styleChallenge.css">
+    <title>Défis écoresponsables</title>
 </head>
 
 <body>
-    <header>
-        <h1>Challenges écoresponsables</h1>
-        <p>Votre score : <span id="score">0</span> pts</p>
-    </header>
-    <main>
-        <ul>
-            <li>
-                <div class="challenge-container">
-                    <input type="checkbox" id="challenge1">
-                    <label for="challenge1" class="challenge-label">Prendre une douche plutôt qu'un bain</label>
-                    <div class="challenge-info">
-                        <span class="close">&times;</span>
-                        <p>Prendre une douche utilise en moyenne 10 fois moins d'eau qu'un bain. En prenant une douche rapide, vous pouvez économiser encore plus d'eau !</p>
-                    </div>
-                    <span class="challenge-points">10 pts</span>
-                </div>
-            </li>
-            <li>
-                <div class="challenge-container">
-                    <input type="checkbox" id="challenge2">
-                    <label for="challenge2" class="challenge-label">Prendre les escaliers au lieu de l'ascenseur</label>
-                    <div class="challenge-info">
-                        <span class="close">&times;</span>
-                        <p>Prendre les escaliers est un excellent exercice pour la santé et ne nécessite pas d'énergie électrique. En évitant l'ascenseur, vous économisez de l'électricité et contribuez à réduire les émissions de gaz à effet de serre.</p>
-                    </div>
-                    <span class="challenge-points">5 pts</span>
-                </div>
-            </li>
-            <li>
-                <div class="challenge-container">
-                    <input type="checkbox" id="challenge3">
-                    <label for="challenge3" class="challenge-label">Utiliser un sac réutilisable pour faire les courses</label>
-                    <div class="challenge-info">
-                        <span class="close">&times;</span>
-                        <p>Les sacs en plastique à usage unique sont un énorme problème pour l'environnement. En utilisant un sac réutilisable, vous pouvez réduire considérablement votre consommation de plastique et contribuer à protéger la planète.</p>
-                    </div>
-                    <span class="challenge-points">15 pts</span>
-                </div>
-            </li>
-            <li>
-                <div class="challenge-container">
-                    <input type="checkbox" id="challenge4">
-                    <label for="challenge4" class="challenge-label">Manger moins de viande</label>
-                    <div class="challenge-info">
-                        <span class="close">&times;</span>
-                        <p>La production de viande est extrêmement gourmande en eau et en énergie, et contribue largement aux émissions de gaz à effet de serre. En réduisant votre consommation de viande, vous pouvez réduire votre empreinte carbone et contribuer à protéger l'environnement.</p>
-                    </div>
-                    <span class="challenge-points">20 pts</span>
-                </div>
-            </li>
-            <li>
-                <div class="challenge-container">
-                    <input type="checkbox" id="challenge5">
-                    <label for="challenge5" class="challenge-label">Remplacer les bouteilles en plastique par des gourdes</label>
-                    <div class="challenge-info">
-                        <span class="close">&times;</span>
-                        <p>Investissez dans une gourde réutilisable pour éviter d'utiliser des bouteilles en plastique jetables. Les bouteilles en plastique sont une source majeure de pollution plastique dans les océans et les décharges.</p>
-                    </div>
-                    <span class="challenge-points">15 pts</span>
-                </div>
-            </li>
+    <h1>Défis écoresponsables</h1>
+    <div id="defis"></div>
+    <div id="score"></div>
+
+
+
+    <script>
+        // Définition des défis avec leur score
+        const defis = [{
+                nom: "Prendre les transports en commun",
+                score: 5
+            },
+            {
+                nom: "Manger des produits locaux",
+                score: 10
+            },
+            {
+                nom: "Réduire sa consommation d'eau",
+                score: 15
+            },
+            {
+                nom: "Utiliser une gourde plutôt que des bouteilles en plastique",
+                score: 5
+            },
+            {
+                nom: "Faire du compost",
+                score: 10
+            },
+            {
+                nom: "Réduire sa consommation de viande",
+                score: 20
+            },
+            {
+                nom: "Éteindre les lumières en quittant une pièce",
+                score: 5
+            },
+            {
+                nom: "Acheter des produits d'occasion",
+                score: 10
+            },
+            {
+                nom: "Utiliser des sacs réutilisables pour faire ses courses",
+                score: 5
+            },
+            {
+                nom: "Éviter les produits jetables",
+                score: 10
+            },
+            {
+                nom: "Planter des arbres",
+                score: 15
+            },
+            {
+                nom: "Réduire sa consommation d'électricité",
+                score: 20
+            },
+        ];
+
+        // Variables globales
+        let defisValides = [];
+        let scoreTotal = 0;
+        let defisAffiches = 0;
+
+        // Fonction pour afficher les défis
+        // Fonction d'affichage des défis
+        function afficherDefis() {
+            // Sélection des 5 défis suivants non encore validés
+            const defisRestants = defis.filter(defi => !defisValides.includes(defi));
+            const defisAAfficher = defisRestants.slice(0, 5);
+
+            // Construction du tableau HTML des défis
+            let html = "<table><tr><th>Défi</th><th>Score</th><th>Valider</th></tr>";
+            for (const defi of defisAAfficher) {
+                html += `<tr><td>${defi.titre}</td><td>${defi.score} points</td><td><button onclick="validerDefi('${defi.titre}', ${defi.score})">Valider</button></td></tr>`;
+            }
+            html += "</table>";
+
+            // Affichage du tableau HTML des défis
+            const divDefis = document.getElementById("defis");
+            divDefis.innerHTML = html;
+
+            // Mise à jour du nombre de défis affichés
+            defisAffiches += defisAAfficher.length;
+        }
+
+        // Fonction de validation d'un défi
+        function validerDefi(titre, score) {
+            // Ajout du défi validé à la liste des défis validés
+            defisValides.push(titre);
+            // Ajout du score du défi validé au score total
+            scoreTotal += score;
+            // Affichage du score total mis à jour
+            const divScore = document.getElementById("score");
+            divScore.innerHTML = `Score total : ${scoreTotal} points`;
+
+            // Si tous les défis affichés sont validés, on réinitialise la liste des défis validés et on affiche les 5 suivants
+            if (defisAffiches >= 5 && defisValides.length === defisAffiches) {
+                defisValides = [];
+                scoreTotal = 0;
+                defisAffiches = 0;
+                afficherDefis();
+            }
+        }
+
+
+
+        // Fonction d'initialisation de la page
+        function init() {
+            // Affichage des premiers défis
+            afficherDefis();
+
+            // Affichage du score total
+            const divScore = document.getElementById("score");
+            divScore.innerHTML = `Score total : ${scoreTotal} points`;
+        }
+
+        // Appel de la fonction d'initialisation au chargement de la page
+        window.onload = init;
+    </script>
+
 </body>
 
 </html>

@@ -64,6 +64,8 @@
             <a href="https://www.fondation-nature-homme.org/">Fondation Nicolas Hulot pour la Nature et l'Homme</a> - Association de protection de la biodiversité et de lutte contre le changement climatique
         </li>
     </ul>
+
+    <button onclick="location.href='map.php'">Carte</button><br><br>
 </body>
 
 </html>
