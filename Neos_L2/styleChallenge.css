@@ -1,91 +1,18 @@
-/* Définition des couleurs */
-:root {
-    --color-primary: #2E8B57;
-    --color-secondary: #9ACD32;
-    --color-tertiary: #7FFF00;
-    --color-text: #333333;
+.challenges-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
   }
   
-  /* Styles généraux */
-  body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    color: var(--color-text);
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: var(--color-primary);
-    color: white;
-    padding: 20px;
-  }
-  
-  h1 {
-    margin: 0;
-    font-size: 2em;
-  }
-  
-  #score {
-    font-weight: bold;
-    font-size: 1.2em;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 20px;
-  }
-  
-  /* Styles pour les challenges */
-  .challenge-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--color-secondary);
+  .challenge {
+    border: 1px solid #ccc;
     padding: 10px;
-    border-radius: 5px;
   }
   
-  .challenge-container:hover {
-    background-color: var(--color-tertiary);
+  input[type="checkbox"] {
+    margin-right: 10px;
   }
-  
-  .challenge-label {
-    margin: 0;
-    font-size: 1.2em;
-    font-weight: bold;
-  }
-  
-  .challenge-info {
+
+  .hidden {
     display: none;
-    background-color: white;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    z-index: 1;
-    min-width: 200px;
   }
-  
-  .challenge-container:hover .challenge-info {
-    display: block;
-  }
-  
-  .close {
-    float: right;
-    font-size: 1.2em;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .challenge-points {
-    font-size: 1.2em;
-    font-weight: bold;
-  }
-  

@@ -9,6 +9,7 @@
 <body>
 
 	<form action="register.php" method="post" enctype="multipart/form-data">
+		
 		<h2>Inscription</h2>
 		<label for="username">Nom d'utilisateur</label>
 		<input type="text" name="username" required><p><p>
@@ -22,11 +23,7 @@
 		<label for="confirm_password">Confirmer le mot de passe</label>
 		<input type="password" name="confirm_password" required><p><p>
 
-		<br>
-		<label for="image">image Avatar :</label>
-		<input type="file" name="image" id="image" accept="image/*" required>
-		<br><br>
-
+	
 		<button type="submit">S'inscrire</button><p><p>
 
     <p>Déjà un compte? <a href="connexion.php">Se connecter</a></p>
