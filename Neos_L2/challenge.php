@@ -32,75 +32,75 @@ if (!isset($_SESSION['username'])) {
             <label for="challenge2">Challenge 2 - Score: 6</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge3" name="score" value="10" onchange=" getscore()">
+            <input type="checkbox" id="challenge3" name="score" value="10" onchange="getScore()">
             <label for="challenge3">Challenge 3 - Score: 10</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge4" name="score" value="8" onchange=" getscore()">
+            <input type="checkbox" id="challenge4" name="score" value="8" onchange="getScore()">
             <label for="challenge4">Challenge 4 - Score: 8</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge5" name="score" value="11" onchange=" getscore()">
+            <input type="checkbox" id="challenge5" name="score" value="11" onchange="getScore()">
             <label for="challenge5">Challenge 5 - Score: 11</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge6" name="score" value="9" onchange=" getscore()">
+            <input type="checkbox" id="challenge6" name="score" value="9" onchange="getScore()">
             <label for="challenge6">Challenge 6 - Score: 9</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge7" name="score" value="4" onchange=" getscore()">
+            <input type="checkbox" id="challenge7" name="score" value="4" onchange="getScore()">
             <label for="challenge7">Challenge 7 - Score: 4</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge8" name="score" value="7" onchange=" getscore()">
+            <input type="checkbox" id="challenge8" name="score" value="7" onchange="getScore()">
             <label for="challenge8">Challenge 8 - Score: 7</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge9" name="score" value="12" onchange=" getscore()">
+            <input type="checkbox" id="challenge9" name="score" value="12" onchange="getScore()">
             <label for="challenge9">Challenge 9 - Score: 12</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge10" name="score" value="14" onchange=" getscore()">
+            <input type="checkbox" id="challenge10" name="score" value="14" onchange="getScore()">
             <label for="challenge10">Challenge 10 - Score: 14</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge11" name="score" value="2" onchange=" getscore()">
+            <input type="checkbox" id="challenge11" name="score" value="2" onchange="getScore()">
             <label for="challenge11">Challenge 11 - Score: 2</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge12" name="score" value="1" onchange=" getscore()">
+            <input type="checkbox" id="challenge12" name="score" value="1" onchange="getScore()">
             <label for="challenge12">Challenge 12 - Score: 1</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge13" name="score" value="16" onchange=" getscore()">
+            <input type="checkbox" id="challenge13" name="score" value="16" onchange="getScore()">
             <label for="challenge13">Challenge 13 - Score: 16</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge14" name="score" value="18" onchange=" getscore()">
+            <input type="checkbox" id="challenge14" name="score" value="18" onchange="getScore()">
             <label for="challenge14">Challenge 14 - Score: 18</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge15" name="score" value="19" onchange=" getscore()">
+            <input type="checkbox" id="challenge15" name="score" value="19" onchange="getScore()">
             <label for="challenge15">Challenge 15 - Score: 19</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge16" name="score" value="15" onchange=" getscore()">
+            <input type="checkbox" id="challenge16" name="score" value="15" onchange="getScore()">
             <label for="challenge16">Challenge 16 - Score: 15</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge17" name="score" value="13" onchange=" getscore()">
+            <input type="checkbox" id="challenge17" name="score" value="13" onchange="getScore()">
             <label for="challenge17">Challenge 17 - Score: 13</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge18" name="score" value="17" onchange=" getscore()">
+            <input type="checkbox" id="challenge18" name="score" value="17" onchange="getScore()">
             <label for="challenge18">Challenge 18 - Score: 17</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge19" name="score" value="20" onchange=" getscore()">
+            <input type="checkbox" id="challenge19" name="score" value="20" onchange="getScore()">
             <label for="challenge19">Challenge 19 - Score: 20</label>
         </div>
         <div class="challenge">
-            <input type="checkbox" id="challenge20" name="score" value="3" onchange=" getscore()">
+            <input type="checkbox" id="challenge20" name="score" value="3" onchange="getScore()">
             <label for="challenge20">Challenge 20 - Score: 3</label>
         </div>
 
