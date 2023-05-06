@@ -12,7 +12,7 @@ if (!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <title>Liste d'associations écoresponsables</title>
-    <link rel="stylesheet" type="text/css" href="styleAsso.css">
+    <link rel="stylesheet" type="text/css" href="styleAssociation.css">
 </head>
 
 <?php
