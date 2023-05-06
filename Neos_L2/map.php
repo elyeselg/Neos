@@ -20,21 +20,28 @@ if (!isset($_SESSION['username'])) {
 
     <link rel="stylesheet" type="text/css" href="styleMap.css">
 
+    
     <style>
+        body{
+            background-color: #98A18B;
+        }
         #map {
             width: 80%;
             height: 100vh;
             float: left;
         }
-
         .listLieux {
             width: 20%;
             height: 100%;
             float: left;
+            background-color: #98A18B;
         }
     </style>
-
 </head>
+
+<?php
+    include("navigation.php"); 
+?>
 
 <body>
     <div id="map"></div>
