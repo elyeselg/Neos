@@ -1,130 +1,145 @@
 /* Couleurs */
 :root {
-    --bg-color: #4B7447;
-    --primary-color: #D4AF37;
-    --secondary-color: #FFF7ED;
-    --text-color: #333333;
-  }
-  
-  /* Styles généraux */
-  body {
-    background-color: var(--bg-color);
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--text-color);
-    margin: 0;
-  }
-  
-  a {
-    color: var(--primary-color);
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Styles pour le formulaire d'inscription */
-  form {
-    background-color: var(--secondary-color);
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  form h2 {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  form input[type="text"],
-  form input[type="email"],
-  form input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  form input[type="submit"] {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  form input[type="submit"]:hover {
-    background-color: #AD8A3B;
-  }
-  
-  /* Styles pour la page de connexion */
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .card {
-    background-color: var(--secondary-color);
-    max-width: 500px;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
-  
-  .card h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .card input[type="text"],
-  .card input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  .card input[type="submit"] {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  .card input[type="submit"]:hover {
-    background-color: #AD8A3B;
-  }
+  --bg-color: #98A18B;
+  --primary-color: #F4F1E1;
+  --secondary-color: #A6775C;
+  --text-color: #000000;
+}
 
-  #logo {
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin: 10px;
-  }
+/* Styles généraux */
+body {
+  background-color: var(--bg-color);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  margin: 0;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styles pour le formulaire d'inscription */
+form {
+  background-color: var(--primary-color);
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #41675C;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #AD8A3B;
+}
+
+/* Styles pour la page de connexion */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: var(--primary-color);
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card input[type="text"],
+.card input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.card input[type="submit"] {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card input[type="submit"]:hover {
+  background-color: #AD8A3B;
+}
+
+/* Styles pour header */
+.header{
+  display: flex;
+  align-items: center;
+  background-color: #2f4242;
+}
+
+.header p {
+  color: #F4F1E1;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.header img{
+  width: 15%;
+  float: left;
+  margin-right: 280px;
+}
