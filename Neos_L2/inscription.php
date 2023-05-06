@@ -2,15 +2,21 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
 	<title>Inscription</title>
 	<link rel="stylesheet" type="text/css" href="styleLog.css">
 </head>
 
 <body>
+	<div class="header">
+        <img src ="logo.png">
+        <p>Néos<br>Le guide pour devenir éco-responsable</p>
+    </div>
 
 	<form action="register.php" method="post" enctype="multipart/form-data">
 		
 		<h2>Inscription</h2>
+
 		<label for="username">Nom d'utilisateur</label>
 		<input type="text" name="username" required><p><p>
 
@@ -23,24 +29,9 @@
 		<label for="confirm_password">Confirmer le mot de passe</label>
 		<input type="password" name="confirm_password" required><p><p>
 
-	
 		<button type="submit">S'inscrire</button><p><p>
 
-    <p>Déjà un compte? <a href="connexion.php">Se connecter</a></p>
-
-	</form>
-
-	<div class="logo">
-        <a href="inscription.php">
-            <img src="Neos.png" alt="Logo">
-        </a>
-    </div>
-
+		<p>Déjà un compte ? <a href="connexion.php">Se connecter</a></p>
 </body>
 
-
-
-</html>
-
-
-  
+</html> 
