@@ -1,0 +1,35 @@
+body {
+    background-color: #98A18B;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #41675C;
+}
+
+.asso ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.asso li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #F4F1E1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.asso a {
+    color: #41675C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.asso a:hover {
+    color: #2F4842;
+    text-decoration: underline;
+}
