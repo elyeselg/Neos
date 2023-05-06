@@ -2,11 +2,17 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
 	<title>Connexion</title>
 	<link rel="stylesheet" type="text/css" href="styleLog.css">
 </head>
 
 <body>
+	<div class="header">
+		<img src ="logo.png">
+		<p>Néos<br>Le guide pour devenir éco-responsable</p>
+	</div>
+
 	<div class="container">
 		<form action="login.php" method="post">
 			<form action="score.php" method="post" enctype="multipart/form-data">
@@ -21,14 +27,8 @@
 
 				<button type="submit" name="submit">Se connecter</button>
 
-				<p>Pas encore inscrit? <a href="inscription.php">Inscrivez-vous ici</a></p>
+				<p>Pas encore inscrit ? <a href="inscription.php">Inscrivez-vous ici</a></p>
 			</form>
-	</div>
-
-	<div class="logo">
-		<a href="connexion.php">
-			<img src="Neos.png" alt="Logo">
-		</a>
 	</div>
 </body>
 
