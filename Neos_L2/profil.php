@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 
+<?php
+session_start();
+if (!isset($_SESSION['username'])) {
+    header('Location: connexion.php');
+    exit();
+}
+?>
+
 <head>
     <title>Profil utilisateur</title>
     <link rel="stylesheet" type="text/css" href="styleProfil.css">
