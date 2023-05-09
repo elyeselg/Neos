@@ -35,8 +35,7 @@ if (!isset($_SESSION['username'])) {
         echo "Erreur de connexion à la base de données : " . $e->getMessage();
     }
 
-    // Démarrer la session
-    session_start();
+    
 
     // Requête SQL pour récupérer l'utilisateur existant dans la base de données en fonction de son username
     $username = $_SESSION['username'];
