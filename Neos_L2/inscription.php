@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="styleLog.css">
 </head>
 
-<body>
+<body> 
 	<div class="header">
         <img src ="logo.png">
         <p>Néos<br>Le guide pour devenir éco-responsable</p>

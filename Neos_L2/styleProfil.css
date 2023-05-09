@@ -1,0 +1,55 @@
+.progress-bar {
+    position: relative;
+    height: 20px; /* modification de la hauteur */
+    background-color: #ddd;
+  }
+  
+  .progress-bar-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #4CAF50;
+  }
+  
+  .progress-bar-tick {
+    position: absolute;
+    height: 100%; /* modification de la hauteur */
+    width: 10px;
+    background-color: #000;
+  }
+  
+  .progress-bar-scale {
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .progress-bar-scale span {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: calc(10% - 1px); /* modification de la largeur */
+  }
+  
+  .progress-bar-scale span:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-50%);
+    height: 10px;
+    width: 2px;
+    background-color: #000;
+  }
+  
+  .progress-bar-tick-label {
+    position: absolute;
+    top: 20px;
+    left: -12px;
+    font-size: 12px;
+    color: #333;
+  }
+  

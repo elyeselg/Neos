@@ -20,4 +20,4 @@ $req->execute(array($email, $username, $hashed_password, $score ));
 
 // Redirection vers la page de connexion
 header('Location: connexion.php');
-?>
+?> 

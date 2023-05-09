@@ -1,199 +1,182 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.835659,
-            45.764043
-          ]
-        },
-        "properties": {
-          "name": "Fripe'In Store",
-          "type": "Friperie",
-          "address": "10 Rue de la Part-Dieu, 69003 Lyon",
-          "phone": "04 72 36 58 73",
-          "website": "https://www.fripeinstore.fr/",
-          "description": "Boutique de vêtements et accessoires d'occasion."
-        }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.835659, 45.764043]
       },
-
-
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.862468,
-            45.748188
-          ]
-        },
-        "properties": {
-          "name": "Le Marché sur l'Eau",
-          "type": "Marché",
-          "address": "Quai Victor Augagneur, 69003 Lyon",
-          "phone": "06 25 20 15 54",
-          "website": "https://www.facebook.com/lemarchesurleau/",
-          "description": "Marché flottant de producteurs locaux et bio."
-        }
-      },
-
-
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.856505,
-            45.748488
-          ]
-        },
-        "properties": {
-          "name": "Déchèterie de la Duchère",
-          "type": "Décheterie",
-          "address": "19 Rue Maurice Béjart, 69009 Lyon",
-          "phone": "04 72 85 69 45",
-          "website": "https://www.grandlyon.com/services/dechets/proprete/decheteries.html",
-          "description": "Déchèterie pour le dépôt des déchets ménagers et encombrants."
-        }
-      },
-
-
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.857803,
-            45.747797
-          ]
-        },
-        "properties": {
-          "name": "Recyclivre",
-          "type": "Librairie solidaire",
-          "address": "31 Rue du Bourbonnais, 69009 Lyon",
-          "phone": "04 72 53 31 81",
-          "website": "https://www.recyclivre.com/",
-          "description": "Librairie solidaire de livres d'occasion, avec une vocation sociale et environnementale."
-        }
-      },
-
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "La Recyclerie Créative",
-          "description": "Friperie et récupération créative",
-          "address": "24 Rue Imbert Colomes, 69001 Lyon"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.856616,
-            45.758188
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Emmaüs Lyon",
-          "description": "Friperie et récupération solidaire",
-          "address": "101 Boulevard Pinel, 69500 Bron"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.846879,
-            45.744719
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Le Marché de la Mode Vintage",
-          "description": "Marché de vêtements et accessoires vintage",
-          "address": "27 Rue Hippolyte Flandrin, 69001 Lyon"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.815036296844482,
-            45.739341735839844
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Le Bazar Ethique",
-          "description": "Boutique de produits éthiques et écologiques",
-          "address": "3 Rue du Griffon, 69001 Lyon"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.834839,
-            45.761811
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "La Ressourcerie de l'Ile",
-          "description": "Récupération et réutilisation d'objets",
-          "address": "21 Rue de la Navigation, 69009 Lyon"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.870272,
-            45.78018
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Le Comptoir de l'Est",
-          "description": "Épicerie et produits bio et locaux",
-          "address": "34 Rue Moncey, 69003 Lyon"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.851785,
-            45.773466
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Les Halles de la Martinière",
-          "description": "Marché couvert de producteurs locaux",
-          "address": "14 Rue de la Martinière, 69001 Lyon"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.833888,
-            45.765506
-          ]
-        }
+      "properties": {
+        "name": "Fripe'In Store",
+        "type": "Friperie",
+        "address": "10 Rue de la Part-Dieu, 69003 Lyon",
+        "phone": "04 72 36 58 73",
+        "website": "https://www.fripeinstore.fr/",
+        "description": "Boutique de vêtements et accessoires d'occasion."
       }
+    },
 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.862468, 45.748188]
+      },
+      "properties": {
+        "name": "Le Marché sur l'Eau",
+        "type": "Marché",
+        "address": "Quai Victor Augagneur, 69003 Lyon",
+        "phone": "06 25 20 15 54",
+        "website": "https://www.facebook.com/lemarchesurleau/",
+        "description": "Marché flottant de producteurs locaux et bio."
+      }
+    },
 
-    ]
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.8313076, 45.7688923]
+      },
+      "properties": {
+        "name": "FripesKetchup",
+        "type": "Friperie",
+        "address": "25 Rue Sergent Blandan, 69001 Lyon",
+        "description": "FripesKetchup revisite le vintage en l'adaptant à la mode actuelle"
+      }
+    },
 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.8278008, 45.7506792]
+      },
+      "properties": {
+        "name": "Marché Place Carnot",
+        "type": "Marché",
+        "address": "Pl Carnot, 69002 Lyon",
+        "phone": "04 78 44 37 70",
+        "description": "Marché des producteurs locaux et bio place Carnot."
+      }
+    },
 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.856505, 45.748488]
+      },
+      "properties": {
+        "name": "Déchèterie de la Duchère",
+        "type": "Décheterie",
+        "address": "19 Rue Maurice Béjart, 69009 Lyon",
+        "phone": "04 72 85 69 45",
+        "website": "https://www.grandlyon.com/services/dechets/proprete/decheteries.html",
+        "description": "Déchèterie pour le dépôt des déchets ménagers et encombrants."
+      }
+    },
 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.857803, 45.747797]
+      },
+      "properties": {
+        "name": "Recyclivre",
+        "type": "Librairie solidaire",
+        "address": "31 Rue du Bourbonnais, 69009 Lyon",
+        "phone": "04 72 53 31 81",
+        "website": "https://www.recyclivre.com/",
+        "description": "Librairie solidaire de livres d'occasion, avec une vocation sociale et environnementale."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Recyclerie Créative",
+        "description": "Friperie et récupération créative",
+        "address": "24 Rue Imbert Colomes, 69001 Lyon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.856616, 45.758188]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emmaüs Lyon",
+        "description": "Friperie et récupération solidaire",
+        "address": "101 Boulevard Pinel, 69500 Bron"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.846879, 45.744719]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Le Marché de la Mode Vintage",
+        "description": "Marché de vêtements et accessoires vintage",
+        "address": "27 Rue Hippolyte Flandrin, 69001 Lyon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.815036296844482, 45.739341735839844]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Le Bazar Ethique",
+        "description": "Boutique de produits éthiques et écologiques",
+        "address": "3 Rue du Griffon, 69001 Lyon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.834839, 45.761811]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Ressourcerie de l'Ile",
+        "description": "Récupération et réutilisation d'objets",
+        "address": "21 Rue de la Navigation, 69009 Lyon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.870272, 45.78018]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Le Comptoir de l'Est",
+        "description": "Épicerie et produits bio et locaux",
+        "address": "34 Rue Moncey, 69003 Lyon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.851785, 45.773466]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Les Halles de la Martinière",
+        "description": "Marché couvert de producteurs locaux",
+        "address": "14 Rue de la Martinière, 69001 Lyon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.833888, 45.765506]
+      }
+    }
+  ]
 }
-
-
-    
-        
-          

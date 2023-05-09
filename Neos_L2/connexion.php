@@ -6,7 +6,7 @@
 	<title>Connexion</title>
 	<link rel="stylesheet" type="text/css" href="styleLog.css">
 </head>
-
+ 
 <body>
 	<div class="header">
 		<img src ="logo.png">

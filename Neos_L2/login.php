@@ -5,7 +5,7 @@ try {
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
 }
-
+ 
 // Récupération des données du formulaire
 $username = $_POST['username'];
 $password = $_POST['password'];
