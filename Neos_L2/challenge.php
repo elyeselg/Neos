@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-//Connexion obligatoire pour accéder à la page
+<!--Connexion obligatoire pour accéder à la page-->
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
@@ -18,7 +18,7 @@ if (!isset($_SESSION['username'])) {
     <link rel="stylesheet" type="text/css" href="styleChallenge.css">
 </head>
 
-//Inclure barre de navigation
+<!--Inclure barre de navigation-->
 <?php
     include("navigation.php"); 
 ?>
@@ -215,7 +215,7 @@ if (!isset($_SESSION['username'])) {
 
     <br><br><br><br>
 
-    //Afichage score et bouton de validation
+    <!--Afichage score et bouton de validation-->
     <form action="score.php" method="post" enctype="multipart/form-data">
         <div class="score"><img src="mascotte_clair.png">Score total :<span id="score">0</span></div>
         <input type="hidden" name="score" id="score-input" value="0">
@@ -223,7 +223,7 @@ if (!isset($_SESSION['username'])) {
     </form>
 
     
-    //Calcul du score
+    <!--Calcul du score-->
     <script>
         function getScore() {
             let score = 0;
