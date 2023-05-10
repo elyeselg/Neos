@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-//Connexion obligatoire pour afficher la page
+<!--Connexion obligatoire pour afficher la page-->
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
@@ -19,7 +19,7 @@ if (!isset($_SESSION['username'])) {
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="styleMap.css">
-
+    
     
     <style>
         body{
@@ -39,7 +39,7 @@ if (!isset($_SESSION['username'])) {
     </style>
 </head>
 
-//Inclure barre de navigation
+<!--Inclure barre de navigation-->
 <?php
     include("navigation.php"); 
 ?>
