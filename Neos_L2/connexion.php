@@ -8,6 +8,7 @@
 </head>
  
 <body>
+	//Barre d'en-tête
 	<div class="header">
 		<img src ="logo_clair.png">
 		<p>Néos<br>Le guide pour devenir éco-responsable</p>
