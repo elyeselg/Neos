@@ -15,11 +15,11 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body>
-
     <?php
-    include("navigation.php");
+        include("navigation.php");
     ?>
     <?php
+    
     // Connexion à la base de données et récupération des informations sur l'utilisateur
     // Informations de connexion à la base de données
     $host = 'localhost';
@@ -52,8 +52,6 @@ if (!isset($_SESSION['username'])) {
     $stmt = $pdo->prepare("SELECT score FROM users WHERE username = :username");
     $stmt->bindParam(':score', $score);
     $stmt->bindParam(':username', $username);
-
-
     ?>
 
     <h1>Profil de l'utilisateur : <?php echo $username; ?></h1>
@@ -73,7 +71,7 @@ if (!isset($_SESSION['username'])) {
     <br><br>
     <div class="message" id="message"></div> <br><br>
 
-
+    
     <script>
         // Récupération du score depuis la jauge
         const progressBarFill = document.querySelector(".progress-bar-fill");
@@ -96,8 +94,6 @@ if (!isset($_SESSION['username'])) {
             600: "Bravo, vous êtes un(e) écolo aguerri(e) "
         };
 
-
-
         // Affichage du message correspondant au palier de 50 points atteint
         const messageElement = document.getElementById("message");
         for (let i = 50; i <= 610; i += 50) {
@@ -111,11 +107,7 @@ if (!isset($_SESSION['username'])) {
         progressBarFill.style.transition = "width 2s ease";
     </script>
 
-
-
-
-
-
+    
     <form>
         <h1>Rappels écologiques</h1>
         <label for="date">Date:</label>
@@ -136,6 +128,7 @@ if (!isset($_SESSION['username'])) {
 
         <button type="button" onclick="setReminder()">Programmer le rappel</button>
     </form>
+    
     <script>
         function setReminder() {
             let date = document.getElementById("date").value;
@@ -154,9 +147,6 @@ if (!isset($_SESSION['username'])) {
             }
         }
     </script>
-
-
-
 </body>
 
 </html>
