@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+//Connexion obligatoire pour afficher la page
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
@@ -10,7 +11,6 @@ if (!isset($_SESSION['username'])) {
 ?>
 
 <head>
-
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Carte Lyon</title>
 
@@ -39,6 +39,7 @@ if (!isset($_SESSION['username'])) {
     </style>
 </head>
 
+//Inclure barre de navigation
 <?php
     include("navigation.php"); 
 ?>
@@ -46,10 +47,6 @@ if (!isset($_SESSION['username'])) {
 <body>
     <div id="map"></div>
     <div class="listLieux"></div>
-
-
-
-
 
     <script>
         var map = L.map('map').setView([45.7578137, 4.8320114], 13);
@@ -85,22 +82,9 @@ if (!isset($_SESSION['username'])) {
                 var marker = L.marker([lieu.geometry.coordinates[1], lieu.geometry.coordinates[0]])
                     .addTo(map)
                     .bindPopup("<b>" + lieu.properties.name + "</b><br>" + lieu.properties.description + "</b><br>" + lieu.properties.address);
-
-
             });
         });
-
-        
     </script>
-
-
-   
-
-   
-
-
-
-
 </body>
 
 </html>
