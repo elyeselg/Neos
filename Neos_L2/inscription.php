@@ -33,6 +33,7 @@
 		<button type="submit">S'inscrire</button><p><p>
 
 		<p>Déjà un compte ? <a href="connexion.php">Se connecter</a></p>
+	</form>
 </body>
 
 </html> 
