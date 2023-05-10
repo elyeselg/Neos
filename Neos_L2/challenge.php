@@ -29,7 +29,7 @@ if (!isset($_SESSION['username'])) {
     <div class="challenges-container">
         <div class="challenge">
             <input type="checkbox" id="challenge1" name="score" value="5" onchange="getScore()">
-            <label for="challenge1"><span class="span1">Challenge 1 : </span><br>Remplacer vos cotons par leur versions lavable<br><span class="span2">Score : 5</span></label>
+            <label for="challenge1"><span class="span1">Challenge 1 : </span><br>Remplacer vos cotons par leur version lavable<br><span class="span2">Score : 5</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge2" name="score" value="5" onchange="getScore()">
@@ -37,7 +37,7 @@ if (!isset($_SESSION['username'])) {
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge3" name="score" value="10" onchange="getScore()">
-            <label for="challenge3"><span class="span1">Challenge 3 : </span><br>Passez au solide : remplacer votre shampoing et gel douche par leur format solide<br><span class="span2">Score : 10</span></label>
+            <label for="challenge3"><span class="span1">Challenge 3 : </span><br>Passer au solide : remplacer votre shampooing et gel douche par leur format solide<br><span class="span2">Score : 10</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge4" name="score" value="10" onchange="getScore()">
@@ -45,7 +45,7 @@ if (!isset($_SESSION['username'])) {
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge5" name="score" value="10" onchange="getScore()">
-            <label for="challenge5"><span class="span1">Challenge 5 : </span><br>Laissez de côté les déodorants aérosols nocif pour vous et l'environnement<br><span class="span2">Score : 10</span></label>
+            <label for="challenge5"><span class="span1">Challenge 5 : </span><br>Laisser de côté les déodorants aérosols nocifs pour vous et l'environnement<br><span class="span2">Score : 10</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge6" name="score" value="15" onchange="getScore()">
@@ -71,15 +71,15 @@ if (!isset($_SESSION['username'])) {
     <div class="challenges-container">
         <div class="challenge">
             <input type="checkbox" id="challenge10" name="score" value="5" onchange="getScore()">
-            <label for="challenge10"><span class="span1">Challenge 10 : </span><br>Priviligiez des contenants en verre ou en aluminium (recyclable à l'infini)<br><span class="span2">Score : 5</span></label>
+            <label for="challenge10"><span class="span1">Challenge 10 : </span><br>Privilégier des contenants en verre ou en aluminium (recyclable à l'infini)<br><span class="span2">Score : 5</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge11" name="score" value="10" onchange="getScore()">
-            <label for="challenge11"><span class="span1">Challenge 11 : </span><br>Optez pour du thé en vrac avec un infuseur réutilisables (et bien d'autres alternatives)<br><span class="span2">Score : 10</span></label>
+            <label for="challenge11"><span class="span1">Challenge 11 : </span><br>Opter pour du thé en vrac avec un infuseur réutilisable (et bien d'autres alternatives)<br><span class="span2">Score : 10</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge12" name="score" value="10" onchange="getScore()">
-            <label for="challenge12"><span class="span1">Challenge 12 : </span><br>Pas de gaspillage : finissez vos produits actuels avant d'en ouvrir un nouveau<br><span class="span2">Score : 10</span></label>
+            <label for="challenge12"><span class="span1">Challenge 12 : </span><br>Pas de gaspillage : finir les produits actuels avant d'en ouvrir un nouveau<br><span class="span2">Score : 10</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge13" name="score" value="15" onchange="getScore()">
@@ -95,7 +95,7 @@ if (!isset($_SESSION['username'])) {
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge16" name="score" value="20" onchange="getScore()">
-            <label for="challenge16"><span class="span1">Challenge 16 : </span><br>Optez pour un tapis en silicone alimentaire pour faire cuir vos meilleures recettes au four<br><span class="span2">Score : 20</span></label>
+            <label for="challenge16"><span class="span1">Challenge 16 : </span><br>Opter pour un tapis en silicone alimentaire pour faire cuire vos meilleures recettes au four<br><span class="span2">Score : 20</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge17" name="score" value="20" onchange="getScore()">
@@ -103,27 +103,27 @@ if (!isset($_SESSION['username'])) {
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge18" name="score" value="25" onchange="getScore()">
-            <label for="challenge18"><span class="span1">Challenge 18 : </span><br>Optez pour du lait végétal pendant une semaine<br><span class="span2">Score : 25</span></label>
+            <label for="challenge18"><span class="span1">Challenge 18 : </span><br>Opter pour du lait végétal pendant une semaine<br><span class="span2">Score : 25</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge19" name="score" value="25" onchange="getScore()">
-            <label for="challenge19"><span class="span1">Challenge 19 : </span><br>Pendant une semaine, cuisinez deux plats végétariens<br><span class="span2">Score : 25</span></label>
+            <label for="challenge19"><span class="span1">Challenge 19 : </span><br>Pendant une semaine, cuisiner deux plats végétariens<br><span class="span2">Score : 25</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge20" name="score" value="25" onchange="getScore()">
-            <label for="challenge20"><span class="span1">Challenge 20 : </span><br>Pendant deux semaines, faites un détour chez les boucher ou le poissonier pour des produits locaux<br><span class="span2">Score : 25</span></label>
+            <label for="challenge20"><span class="span1">Challenge 20 : </span><br>Pendant deux semaines, faire un détour chez le boucher ou le poissonier pour des produits locaux<br><span class="span2">Score : 25</span></label>
         </div> 
         <div class="challenge">
             <input type="checkbox" id="challenge21" name="score" value="30" onchange="getScore()">
-            <label for="challenge21"><span class="span1">Challenge 21 : </span><br>Laissez de côté vos dosettes de café qui ne se recycle rarement, optez pour une meilleure alternative (selon vos machines)<br><span class="span2">Score : 30</span></label>
+            <label for="challenge21"><span class="span1">Challenge 21 : </span><br>Laisser de côté les dosettes de café qui se recyclent rarement, opter pour une meilleure alternative (selon vos machines)<br><span class="span2">Score : 30</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge22" name="score" value="30" onchange="getScore()">
-            <label for="challenge22"><span class="span1">Challenge 22 : </span><br>Laissez de côté les pack d'eau et optez pour le charbon ou les perles de céramique pour filtrer naturellement l'eau de votre robinet<br><span class="span2">Score : 30</span></label>
+            <label for="challenge22"><span class="span1">Challenge 22 : </span><br>Laisser de côté les pack d'eau et opter pour le charbon ou les perles de céramique pour filtrer naturellement l'eau de votre robinet<br><span class="span2">Score : 30</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge23" name="score" value="35" onchange="getScore()">
-            <label for="challenge23"><span class="span1">Challenge 23 : </span><br>Installez un mousseur au bout de votre robinet. Pour réduire la consommation d'eau et améliorer la pression de l'eau<br><span class="span2">Score : 35</span></label>
+            <label for="challenge23"><span class="span1">Challenge 23 : </span><br>Installer un mousseur au bout du robinet. Pour réduire la consommation d'eau et améliorer la pression de l'eau<br><span class="span2">Score : 35</span></label>
         </div>  
     </div>  
     <br>
@@ -133,15 +133,15 @@ if (!isset($_SESSION['username'])) {
     <div class="challenges-container">
         <div class="challenge">
             <input type="checkbox" id="challenge24" name="score" value="5" onchange="getScore()">
-            <label for="challenge24"><span class="span1">Challenge 24 : </span><br>Amenez vos sacs réutilisables (tote bag, sac de course)<br><span class="span2">Score : 5</span></label>
+            <label for="challenge24"><span class="span1">Challenge 24 : </span><br>Amener des sacs réutilisables (tote bag, sac de course)<br><span class="span2">Score : 5</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge25" name="score" value="15" onchange="getScore()">
-            <label for="challenge25"><span class="span1">Challenge 25 : </span><br>Lors de vos 4 prochaines courses, faite un tour au rayon anti-gaspi : vous pourrez peut-être sauver des produits<br><span class="span2">Score : 15</span></label>
+            <label for="challenge25"><span class="span1">Challenge 25 : </span><br>Lors des 4 prochaines courses, faire un tour au rayon anti-gaspi : vous pourrez peut-être sauver des produits<br><span class="span2">Score : 15</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge26" name="score" value="15" onchange="getScore()">
-            <label for="challenge26"><span class="span1">Challenge 26 : </span><br>Prennez seulement des fruits et légumes de saison<br><span class="span2">Score : 15</span></label>
+            <label for="challenge26"><span class="span1">Challenge 26 : </span><br>Prendre seulement des fruits et légumes de saison<br><span class="span2">Score : 15</span></label>
         </div> 
         <div class="challenge">
             <input type="checkbox" id="challenge27" name="score" value="25" onchange="getScore()">
@@ -155,7 +155,7 @@ if (!isset($_SESSION['username'])) {
     <div class="challenges-container">
         <div class="challenge">
             <input type="checkbox" id="challenge28" name="score" value="5" onchange="getScore()">
-            <label for="challenge28"><span class="span1">Challenge 28 : </span><br>Utilisez une gourde plutôt qu'une bouteille en plastique<br><span class="span2">Score : 5</span></label>
+            <label for="challenge28"><span class="span1">Challenge 28 : </span><br>Utiliser une gourde plutôt qu'une bouteille en plastique<br><span class="span2">Score : 5</span></label>
         </div> 
         <div class="challenge">
             <input type="checkbox" id="challenge29" name="score" value="5" onchange="getScore()">
@@ -167,7 +167,7 @@ if (!isset($_SESSION['username'])) {
         </div> 
         <div class="challenge">
             <input type="checkbox" id="challenge31" name="score" value="15" onchange="getScore()">
-            <label for="challenge31"><span class="span1">Challenge 31 : </span><br>Pendant la prochaine semaine de soleil : faite sécher vos vêtements au lieu d'utiliser le sèche linge<br><span class="span2">Score : 15</span></label>
+            <label for="challenge31"><span class="span1">Challenge 31 : </span><br>Pendant la prochaine semaine de soleil : faire sécher vos vêtements au lieu d'utiliser le sèche linge<br><span class="span2">Score : 15</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge32" name="score" value="15" onchange="getScore()">
@@ -179,23 +179,23 @@ if (!isset($_SESSION['username'])) {
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge34" name="score" value="15" onchange="getScore()">
-            <label for="challenge34"><span class="span1">Challenge 34 </span><br>Pour votre prochaine lecture, regardez d'abord de seconde main sinon privilégiez votre libraire <br><span class="span2">Score : 15</span></label>
+            <label for="challenge34"><span class="span1">Challenge 34 </span><br>Pour votre prochaine lecture, regarder d'abord de la seconde main, sinon privilégier votre librairie<br><span class="span2">Score : 15</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge35" name="score" value="20" onchange="getScore()">
-            <label for="challenge35"><span class="span1">Challenge 35 : </span><br>Vinted et leboncoin sont vos meilleurs amis : achetez votre prochain objet de seconde main<br><span class="span2">Score : 20</span></label>
+            <label for="challenge35"><span class="span1">Challenge 35 : </span><br>Vinted et Leboncoin sont vos meilleurs amis : acheter votre prochain objet de seconde main<br><span class="span2">Score : 20</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge36" name="score" value="20" onchange="getScore()">
-            <label for="challenge36"><span class="span1">Challenge 36 : </span><br>Ne jettez pas vos cartons d'envoi mais réutilisez les pour votre prochaine vente de seconde main<br><span class="span2">Score : 20</span></label>
+            <label for="challenge36"><span class="span1">Challenge 36 : </span><br>Ne pas jetter vos cartons d'envoi mais les réutiliser pour votre prochaine vente de seconde main<br><span class="span2">Score : 20</span></label>
         </div> 
         <div class="challenge">
             <input type="checkbox" id="challenge37" name="score" value="25" onchange="getScore()">
-            <label for="challenge37"><span class="span1">Challenge 37 : </span><br>Pensez à réparer avant de jeter (électronique, électroménager, vetements, …)<br><span class="span2">Score : 25</span></label>
+            <label for="challenge37"><span class="span1">Challenge 37 : </span><br>Penser à réparer avant de jeter (électronique, électroménager, vetements, …)<br><span class="span2">Score : 25</span></label>
         </div> 
         <div class="challenge">
             <input type="checkbox" id="challenge38" name="score" value="25" onchange="getScore()">
-            <label for="challenge38"><span class="span1">Challenge 38 : </span><br>Avant de jeter : réfléchissez si son utilisation est encore possible ou non (même d'une autre manière)<br><span class="span2">Score : 25</span></label>
+            <label for="challenge38"><span class="span1">Challenge 38 : </span><br>Avant de jeter : réfléchir si son utilisation est encore possible ou non (même d'une autre manière)<br><span class="span2">Score : 25</span></label>
         </div>
         <div class="challenge">
             <input type="checkbox" id="challenge39" name="score" value="25" onchange="getScore()">
@@ -203,7 +203,7 @@ if (!isset($_SESSION['username'])) {
         </div>  
         <div class="challenge">
             <input type="checkbox" id="challenge40" name="score" value="35" onchange="getScore()">
-            <label for="challenge40"><span class="span1">Challenge 40 : </span><br>Lors de votre prochaine balade, profitez en pour faire un clean walk (nettoyez les déchets)<br><span class="span2">Score : 35</span></label>
+            <label for="challenge40"><span class="span1">Challenge 40 : </span><br>Lors de votre prochaine balade, profitez en pour faire un clean walk (nettoyer les déchets)<br><span class="span2">Score : 35</span></label>
         </div> 
         <div class="challenge">
             <input type="checkbox" id="challenge41" name="score" value="40" onchange="getScore()">
