@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
- 
+
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
@@ -20,9 +20,8 @@ if (!isset($_SESSION['username'])) {
 ?>
 
 <body>
-    <h1>Liste d'associations écoresponsables</h1>
+    <h1>Liste d'associations éco-responsables</h1>
     <div class="asso">
-
         <ul>
             <li>
                 <a href="https://www.greenpeace.org/france/">Greenpeace France</a> - Organisation internationale de protection de l'environnement
