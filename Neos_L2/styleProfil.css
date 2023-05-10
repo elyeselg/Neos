@@ -1,7 +1,33 @@
+body {
+  background-color: #98A18B;
+  font-family: Arial, sans-serif;
+}
+
+
+h1{
+  color: #41675C;
+  text-align: center;
+}
+
+form{
+  display: block;
+  background-color: #41675C;
+  border-radius: 5px;
+  width: 500px;
+  padding: 25px;
+  padding-top: 5px;
+  margin-left: 50px;
+}
+form h1{
+  color: #2F4842;
+  text-align: center;
+}
+
 .progress-bar {
     position: relative;
     height: 20px; /* modification de la hauteur */
-    background-color: #ddd;
+    background-color: #41675C;
+    align-items: center;
   }
   
   .progress-bar-fill {
@@ -25,6 +51,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+
   }
   
   .progress-bar-scale span {
