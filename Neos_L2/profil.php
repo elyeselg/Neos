@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+//Connexion obligatoire pour afficher la page
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
@@ -15,6 +16,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body>
+    //Inclure barre de navigation
     <?php
         include("navigation.php");
     ?>
@@ -35,8 +37,7 @@ if (!isset($_SESSION['username'])) {
         echo "Erreur de connexion à la base de données : " . $e->getMessage();
     }
 
-
-
+    
     // Requête SQL pour récupérer l'utilisateur existant dans la base de données en fonction de son username
     $username = $_SESSION['username'];
 
@@ -107,7 +108,7 @@ if (!isset($_SESSION['username'])) {
         progressBarFill.style.transition = "width 2s ease";
     </script>
 
-    
+    //Rappels
     <form>
         <h1>Rappels écologiques</h1>
         <label for="date">Date:</label>
