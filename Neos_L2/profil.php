@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-//Connexion obligatoire pour afficher la page
+<!--Connexion obligatoire pour afficher la page-->
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
@@ -16,7 +16,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body>
-    //Inclure barre de navigation
+    <!--Inclure barre de navigation-->
     <?php
         include("navigation.php");
     ?>
@@ -108,7 +108,7 @@ if (!isset($_SESSION['username'])) {
         progressBarFill.style.transition = "width 2s ease";
     </script>
 
-    //Rappels
+    <!--Rappels-->
     <form>
         <h1>Rappels écologiques</h1>
         <label for="date">Date:</label>
