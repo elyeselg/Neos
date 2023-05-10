@@ -2,7 +2,7 @@
 <html>
 
 
-//Connexion obligatoire pour accéder à la page
+<!--Connexion obligatoire pour accéder à la page-->
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
@@ -17,7 +17,7 @@ if (!isset($_SESSION['username'])) {
     <link rel="stylesheet" type="text/css" href="styleAssociation.css">
 </head>
 
-//Inclure barre de navigation
+<!--Inclure barre de navigation-->
 <?php
     include("navigation.php"); 
 ?>
