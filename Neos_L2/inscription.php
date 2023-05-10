@@ -9,7 +9,7 @@
 
 <body> 
 	<div class="header">
-        <img src ="logo.png">
+        <img src ="logo_clair.png">
         <p>Néos<br>Le guide pour devenir éco-responsable</p>
     </div>
 

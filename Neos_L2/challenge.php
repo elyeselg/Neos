@@ -214,7 +214,7 @@ if (!isset($_SESSION['username'])) {
     <br><br><br><br>
 
     <form action="score.php" method="post" enctype="multipart/form-data">
-        <div class="score"><img src="fleur.png">Score total :<span id="score">0</span></div>
+        <div class="score"><img src="mascotte_clair.png">Score total :<span id="score">0</span></div>
         <input type="hidden" name="score" id="score-input" value="0">
         <button type="submit" name="submit">Valider</button>
     </form>

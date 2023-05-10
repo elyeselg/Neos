@@ -35,7 +35,7 @@ if (!isset($_SESSION['username'])) {
         echo "Erreur de connexion à la base de données : " . $e->getMessage();
     }
 
-    
+
 
     // Requête SQL pour récupérer l'utilisateur existant dans la base de données en fonction de son username
     $username = $_SESSION['username'];
@@ -115,8 +115,9 @@ if (!isset($_SESSION['username'])) {
 
 
 
-    <h1>Rappels écologiques</h1>
+
     <form>
+        <h1>Rappels écologiques</h1>
         <label for="date">Date:</label>
         <input type="date" id="date"><br><br>
         <label for="time">Heure:</label>

@@ -10,7 +10,7 @@
   <nav>
     <div class="nav">
       <ul>
-        <li><img src ="logo.png"></li>
+        <li><img src ="logo_clair.png"></li>
         <li><a href="map.php">Carte</map></a></li> 
         <li><a href="challenge.php">Challenges</a></li> 
         <li><a href="association.php">Associations</a></li> 
