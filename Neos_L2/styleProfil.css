@@ -26,7 +26,6 @@ form h1{
 .progress-bar {
     position: relative;
     height: 20px; /* modification de la hauteur */
-    background-color: #41675C;
     align-items: center;
   }
   
@@ -35,7 +34,7 @@ form h1{
     top: 0;
     left: 0;
     height: 100%;
-    background-color: #4CAF50;
+    background-color: #41675C;
   }
   
   .progress-bar-tick {

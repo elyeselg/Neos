@@ -41,6 +41,7 @@ if(isset($_SESSION['username'])){
 
             if ($stmt->execute()) {
                 echo "Score enregistré avec succès pour l'utilisateur $username !";
+                header('Location: profil.php');
             } else {
                 echo "Erreur lors de l'enregistrement du score pour l'utilisateur $username.";
             }
