@@ -11,7 +11,7 @@ if (!isset($_SESSION['username'])) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Liste d'associations écoresponsables</title>
+    <title>Liste d'associations éco-responsables</title>
     <link rel="stylesheet" type="text/css" href="styleAssociation.css">
 </head>
 
